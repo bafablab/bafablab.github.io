@@ -113,7 +113,7 @@ body {
     margin: 15px;
 }
 
-/* Assignments page image */
+/* image */
 .image {
     border-radius: 15px 50px;
   display: block;
@@ -121,7 +121,7 @@ body {
   height: 150px;
 }
 
-/* Assignments page box overlay*/
+/* image overlay */
 .overlay {
   border-radius: 15px 50px;
   position: absolute;
