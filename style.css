@@ -7,7 +7,7 @@
     background-color: #333;
     border-bottom: 8px solid #E60004;
     font-weight: bold;
-    min-width: 1000px;
+    max-width: 1080px;
 }
 
 .topnav a {
@@ -33,203 +33,46 @@ html {
     font-family:Arial, Helvetica, sans-serif;
 }
 
-* {
-    box-sizing: border-box;
-}
 
-table {
-    font-size: 12px;
-    max-width: 800px;
-    background-color: white;
-    padding: 10px;
-    box-shadow: 2px 5px 10px #000;
-}
 body {
-  
     height: 100%;
     margin: 0;
     padding-top:10px;
     background-color: #ffffff;
 }
 
+.wrap {    
+  margin: auto;
+  width: 80%;
+  max-width: 1080px;
+  padding-bottom: 10px;    
+  
+}
+
 .content {
-   
     background-color: rgb(255, 255, 255);
     padding: 5%;
     padding-top: 1%;
     min-height: 500px;
     height:auto;
-    min-width: 1000px;
-    
-}
-
-/* Assignment box */
-.assignbox {
-    margin: 10px;
-  /*  border: 1px solid #000;*/
-  /* background-color: #FCFF54; */
-    background-color: #B2FFF2;
-    padding: 10px;
-     box-shadow: 2px 5px 10px #000;
-} 
-
-/* Assignment answer box */
-.answer {
-    margin: 10px;
-    padding: 10px;   
-   /*  background-color: #FFF;
-         box-shadow: 2px 5px 10px #000; */
-}
-
-.about {
-   padding-right: 15px;
-}
-
-.aboutimg {
-    width:25%;
-    min-width: 100px;
-    float: right;
-}
-
-.wrap {    
-   
-    margin: auto;
-    width: 80%;
     max-width: 1080px;
-    padding-bottom: 10px;    
-    min-width: 1000px;
 }
 
-.boxwrapper {
-   height:400px;
-}
-/* Assignments page image box */
-.box {
-    border-radius: 15px 50px;
-    position:relative;
-    float: left;
-    width: 150px;
-    height: 150px;
-    margin: 15px;
+img {
+  width: 100%;
+  height:auto;
 }
 
-/* image */
-.image {
-    border-radius: 15px 50px;
-  display: block;
-  width: 150px;
-  height: 150px;
+.img-thmp {
+  width: 25%;
+  height:auto;
 }
 
-/* image overlay */
-.overlay {
-  border-radius: 15px 50px;
-  position: absolute;
-  top: 0;
-  bottom: 0;
-  left: 0;
-  right: 0;
-  height: 150px;
-  width: 150px;
-  opacity: 0; /*whole thing is hidden */
-  transition: .5s ease;
-  background-color: #008CBA;
-}
-
-/* Assignments page box overlay hover */
-.box:hover .overlay {
-  opacity: 0.95;
-}
-
-/* Assignment page box overlay text */
-.text {
-  color: white;
-  font-size: 19px;
-  position: absolute;
-  top: 35%;
-  left: 50%;
-  transform: translate(-50%, -50%);
-  -ms-transform: translate(-50%, -50%);
-}
-
-/* Assignment page box overlay text 2 */
-.text2 {
-  color: white;
-  font-size: 14px;
-  position: absolute;
-  top: 65%;
-  left: 50%;
-  transform: translate(-50%, -50%);
-  -ms-transform: translate(-50%, -50%);
-  text-align: center;
-}
-
-
-/* for all images on assignment pages */
-.answerimgs {
-    display: block;
-    margin-top: 8px;
-    margin-bottom: 8px;
-    box-shadow: 2px 5px 10px #000;
-    width:100%;
-}
-
-/* Image titles in answer */
-.imgoverlay {
-  position: absolute;
-  bottom: 0;
-  left: 0;
-  right: 0;
-  height: 25px;
-  max-width:100%;
-
-  opacity: 0;
-  transition: .5s ease;
-  background-color: #008CBA;
-
-}
-
-/* Image title wrapper box */
-.imgbox {  
-    position:relative; 
-    width:100%;
-}
-
-
-/* Image title overlay hover */
-.imgbox:hover .imgoverlay{
-  opacity: 0.8;
-}
-
-/* Image title text */
-.imgtxt { 
-  color: white;
-  font-size: 14px;
-  position: absolute;
-  top: 50%;
-  left: 50%;
-  transform: translate(-50%, -50%);
-  -ms-transform: translate(-50%, -50%);   
- 
-  
-}
-
-/* git command lines */
-.cmndbox {
-    margin-top: 5px;
-    margin-bottom: 10px;
-    border: 1px solid #000;
-    background-color: #EAE4D5;
-    padding: 12px;
-    box-shadow: 1px 1px 3px #000;
-    width: 75%;
-    font-family:Lucida Console;
-    font-size: 12px;
-}
-h2 {
+h1,h2,h3 {
     font-family:Arial Black;
-    
 }
+
+/* FOOTER */
 
 .footer {
     border-radius: 0 0 15px 15px;
@@ -238,22 +81,6 @@ h2 {
     text-align: right;
     color: white;
     min-height: 70px;
-    min-width: 1000px;
+    max-width: 1080px;
     border-top: 8px solid #E60004;
-}
-
-/* up arrow */
-.up {
-    display: block;
-    margin:auto;
-    left:50%;
-    width:80px;
-    
-}
-/* Footer images */
-.image2 { 
-  display: block;
-  width: 20%;
-  height: 20%;
-    margin-bottom:20px;
 }
