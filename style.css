@@ -80,7 +80,7 @@ h1,h2,h3 {
     padding: 10px;
     text-align: right;
     color: white;
-    min-height: 70px;
+    min-height: 50px;
     max-width: 1080px;
     border-top: 8px solid #E60004;
 }
