@@ -2,12 +2,13 @@
 /* NAV STYLE */
 
 .topnav {
-    border-radius: 15px 15px 0 0;
+    
     overflow: hidden;
     background-color: #333;
     border-bottom: 8px solid #E60004;
-    font-weight: bold;
-    max-width: 1080px;
+    font-weight:normal;
+    
+  
 }
 
 .topnav a {
@@ -15,8 +16,7 @@
     float: left;
     display: block;
     color: #f2f2f2;
-    text-align: center;
-    padding: 14px 20px;
+    padding: 24px 24px;
     text-decoration: none;
 }
 
@@ -37,7 +37,7 @@ html {
 body {
     height: 100%;
     margin: 0;
-    padding-top:10px;
+   
     background-color: #ffffff;
 }
 
@@ -50,11 +50,12 @@ body {
 }
 
 .content {
-    background-color: rgb(250, 245, 255);
+    background-color: rgb(255, 255, 255);
     padding: 5%;
     padding-top: 1%;
     min-height: 500px;
     height:auto;
+    margin: auto;
     max-width: 1080px;
 }
 
@@ -75,12 +76,12 @@ h1,h2,h3 {
 /* FOOTER */
 
 .footer {
-    border-radius: 0 0 15px 15px;
+
     background-color: #333;
     padding: 10px;
-    text-align: right;
+    text-align: center;
     color: white;
     min-height: 50px;
-    max-width: 1080px;
+    
     border-top: 8px solid #E60004;
 }
