@@ -69,6 +69,16 @@ img {
   height:auto;
 }
 
+.img_container {
+  width:100%;
+  overflow:auto;
+}
+.img_container div {
+  width:27%;
+  margin:3%;
+  float:left;
+}
+
 h1,h2,h3 {
     font-family:Arial Black;
 }
